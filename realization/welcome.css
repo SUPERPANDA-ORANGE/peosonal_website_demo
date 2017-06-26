@@ -1,0 +1,79 @@
+#aboutMe{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+#aboutMe:hover{
+    background-color:#ffff99;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+#article{
+    width:40%;
+    height: 50%;
+    float:left;
+}
+
+#article:hover{
+     background-color: #CCCCFF;
+    transition-duration: 2s;
+ cursor: pointer;
+}
+
+#something{
+    width: 40%;
+    height: 50%;
+    float: left;
+}
+
+#something:hover{
+     background-color: #CCFFCC; 
+    transition-duration: 2s;
+ cursor: pointer;
+}
+
+
+
+#photos{
+    position: absolute;
+    left: 70%;
+    height: 100%;
+    width: 30%;
+}
+
+#photos:hover{
+    background-color:#FF9933;
+    transition-duration: 2s;
+ cursor: pointer;
+}
+
+body{
+    background-color: black;
+}
+
+p{
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.partname{
+    font-size: 60pt;
+    margin:0;
+}
+
+.tagname{
+    font-size: 20pt;
+    margin: 0;
+    opacity: 0;
+}
+
+.part:hover .tagname{
+    opacity: 1;
+    transition-duration: 2s;
+    color: black;
+}
